@@ -305,7 +305,7 @@ h6 {
 
 @media (min-width: 770px) {
 	.workit__navbar {
-		padding: 2rem 2 rem;
+		padding: 2rem 2rem;
 	}
 
 	.header__title {
@@ -428,5 +428,91 @@ h6 {
 		align-items: center;
 		gap: 1.65rem;
 		margin-bottom: 5rem;
+	}
+}
+
+@media (min-width: 1440px) {
+	.workit__navbar {
+		padding: 3.2rem 8rem;
+	}
+
+	.workit__header {
+		height: 650px;
+		position: relative;
+	}
+
+	.header__title {
+		font-size: 4.3rem;
+		font-weight: 600;
+		padding: 0 30rem;
+	}
+
+	.header__pattern-1 {
+		display: inline-block;
+		position: absolute;
+		bottom: 12rem;
+		left: -8rem;
+	}
+
+	.header__pattern-2 {
+		display: inline-block;
+		position: absolute;
+		right: -3rem;
+		bottom: 7rem;
+	}
+
+	.hero__img {
+		bottom: 0rem;
+		left: 27.5rem;
+		width: 43%;
+	}
+
+	.hero__list {
+		padding-inline: 2.2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.list__item {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding: 0 7px;
+	}
+
+	.list__title {
+		margin-top: 0;
+		font-size: 1.7rem;
+	}
+
+	.list__text {
+		width: 83%;
+		font-size: 1.1rem;
+	}
+
+	.testimonial__img {
+		width: 30%;
+		left: 7.5rem;
+	}
+
+	.testimonial__card {
+		top: 20rem;
+		width: 550px;
+		height: 355px;
+		left: 50%;
+		transform: translateX(-50%);
+		padding: 2.5rem 3rem 0rem 3rem;
+	}
+
+	.testimonial__text {
+		margin-bottom: 1rem;
+	}
+
+	.testimonials__pattern {
+		display: inline-block;
+		position: absolute;
+		bottom: -4.5rem;
+		left: 18rem;
 	}
 }
