@@ -233,7 +233,6 @@ h6 {
 
 .workit__testimonial {
 	position: relative;
-	/* padding-inline: 1rem; */
 }
 
 .testimonial__img {
@@ -302,4 +301,132 @@ h6 {
 
 .socials__icon:hover {
 	cursor: pointer;
+}
+
+@media (min-width: 770px) {
+	.workit__navbar {
+		padding: 2rem 2 rem;
+	}
+
+	.header__title {
+		font-size: 3rem;
+		font-weight: 600;
+		padding: 0 10rem;
+	}
+
+	.header__pattern-1 {
+		display: inline-block;
+		position: absolute;
+		bottom: 6rem;
+		left: -14rem;
+	}
+
+	.header__pattern-2 {
+		display: inline-block;
+		position: absolute;
+		right: -6rem;
+		bottom: 3rem;
+	}
+
+	.hero__img {
+		bottom: 14rem;
+		left: 6rem;
+		width: 70%;
+	}
+
+	.workit__hero {
+		overflow: hidden;
+		padding-top: 13.5rem;
+		text-align: left;
+	}
+
+	.hero__list {
+		padding-inline: 2.2rem;
+	}
+
+	.list__item {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		column-gap: 3rem;
+		row-gap: 1rem;
+		align-items: center;
+	}
+
+	.list__num {
+		grid-column: 1;
+		grid-row: 1 / span 2;
+	}
+
+	.list__title {
+		grid-column: 2;
+		justify-self: baseline;
+	}
+
+	.list__text {
+		grid-column: 2;
+	}
+
+	.list__title {
+		margin-top: 2rem;
+	}
+
+	.testimonial__img {
+		width: 40%;
+		display: block;
+		position: absolute;
+		left: 2.6rem;
+	}
+
+	.testimonial__card {
+		top: 20rem;
+		width: 490px;
+		height: 355px;
+		left: 62%;
+		transform: translateX(-50%);
+		padding: 2.5rem 2.3rem 0rem 2.2rem;
+		text-align: left;
+	}
+
+	.testimonial__title {
+		font-size: 2.5rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+	}
+
+	.testimonial__text {
+		margin-bottom: 2rem;
+	}
+
+	.testimonial__btn {
+		font-family: var(--ff-secondary);
+		margin: 1.5rem 0 1rem;
+		display: block;
+		padding: 0.8rem 2rem;
+	}
+
+	.testimonials__pattern {
+		display: inline-block;
+		position: absolute;
+		bottom: -7.5rem;
+		left: 16rem;
+	}
+
+	.workit__footer {
+		margin-top: 47rem;
+	}
+
+	.footer__logo {
+		display: block;
+		margin: auto;
+		margin-bottom: 4rem;
+	}
+
+	.footer__socials {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.65rem;
+		margin-bottom: 5rem;
+	}
 }
